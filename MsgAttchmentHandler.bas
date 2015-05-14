@@ -1,5 +1,7 @@
 Attribute VB_Name = "MsgAttchmentHandler"
 'Attribute VB_Name = "MessageAttachmentHandler"
+'I believe this first came from BlueDevilFan http://www.experts-exchange.com/members/BlueDevilFan.html
+'I've made my own modifications over the years.
 'The macro takes a maximum of fourteen parameters.
 'In the code below these are represented as P1 through P14.
 'The parameters are positional (i.e. they must appear in the sequence given).
