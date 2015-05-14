@@ -1,4 +1,7 @@
 'Attribute VB_Name = "MessageAttachmentProcessor"
+'I believe this first came from BlueDevilFan http://www.experts-exchange.com/members/BlueDevilFan.html
+'I've made my own modifications over the years.
+
 Public Declare Function GetProfileString Lib "kernel32" Alias "GetProfileStringA" _
         (ByVal lpAppName As String, ByVal lpKeyName As String, _
         ByVal lpDefault As String, ByVal lpReturnedString As String, _
