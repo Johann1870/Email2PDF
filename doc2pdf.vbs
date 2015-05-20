@@ -1,9 +1,5 @@
 Option Explicit
 
-' Written by Rob van der Woude
-' http://www.robvanderwoude.com
-' Modified by J. Ditzel to take an argument from the cmd line.
-
 'Takes filename in form of argument from cmd line.
 Dim objArgs, filename
 Set objArgs = Wscript.Arguments
@@ -22,7 +18,9 @@ Sub Doc2PDF( myFile )
 ' http://www.microsoft.com/downloads/details.aspx?
 '        familyid=4D951911-3E7E-4AE6-B059-A2E79ED87041&displaylang=en
 '
-
+' Written by Rob van der Woude
+' http://www.robvanderwoude.com
+' Modified by J. Ditzel to take an argument from the cmd line.
 
     ' Standard housekeeping
     Dim objDoc, objFile, objFSO, objWord, strFile, strPDF
