@@ -82,5 +82,11 @@ Attribute VB_Name = "MsgAttchmentHandler"
 
 
 Sub RecipeSuggestion(Item As Outlook.MailItem)
-	'Recipe Suggestions
-	MessageAndAttachmentProcessor Item, False, True, False, False, False, ,"J:\rec\suggestions",
+        'Recipe Suggestions
+        MessageAndAttachmentProcessor Item, False, True, False, False, False, , "J:\rec\suggestions", olDoc, , "Recipe Suggestion ", ".doc", False, False, False
+        
+        Dim objShell As Object
+        Set objShell = CreateObject("WScript.Shell")
+        objShell.Run ("cscript J:\sc\vbcallcmd.vbs")
+        Set objShell = Nothing
+End Sub
